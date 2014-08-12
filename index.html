@@ -10,11 +10,9 @@
         <script>
           var c = document.getElementById("herbs");
           var cvs = c.getContext("2d");
-          var mouseOut = function(){
-            cvs.fillStyle = "#FF0000";
-            cvs.fillRect(0, 0, 240, 100);
-          }
-          var mouseOver = function(){
+          cvs.fillStyle = "#FF0000";
+          cvs.fillRect(0, 0, 240, 100);
+          for(mouseX > 0 && mouseX < 240 && mouseY > 0 && mouseY < 100){
             cvs.fillStyle = "#BB0000";
             cvs.fillRect(0, 0, 240, 100);
           }
