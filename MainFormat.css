@@ -1,9 +1,12 @@
+#menu {
+  padding: 0;
+}
 #menu li {
   display: inline;
 }
 #menu li a {
     background-color: red;
-    color: white;
+    color: yellow;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px 4px 0 0;
