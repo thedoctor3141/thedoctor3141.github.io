@@ -1,5 +1,8 @@
 #menu {
   padding: 0;
+  positon: fixed;
+  margin-left: auto;
+  margin-right: auto;
 }
 #menu li {
   display: inline;
