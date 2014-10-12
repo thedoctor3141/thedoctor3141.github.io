@@ -12,9 +12,9 @@
 #menu li a {
     background-color: red;
     color: yellow;
-    padding: 10px 20px;
+    padding: 20px 20px;
     text-decoration: none;
-    border-radius: 4px 4px 0 0;
+    border-radius: 0px 0px 4px 4px;
     z-index: 100;
 }
 
